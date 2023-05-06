@@ -1,0 +1,267 @@
+/* Estilos para el cuerpo de la página */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+/* Estilos para el contenedor del formulario Login*/
+
+.form-container {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 400px;
+    padding: 20px;
+}
+  
+.form-container h2 {
+    margin-top: 0;
+}
+  
+.form-container label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+  
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"] {
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+}
+  
+
+.form-container button[type="submit"] {
+    background-color: #4caf50;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+}
+  
+/* Estilos para el formulario de registro */
+
+.form-container .register-form {
+    display: none;
+}
+  
+/* Estilos para el cambio de formulario */
+
+.form-container .switch-form {
+    color: #4caf50;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+  
+.form-container #register-switch:hover {
+    text-decoration: underline;
+}
+  
+.form-container #login-switch:hover {
+    text-decoration: underline;
+} 
+
+/* Estilos página recetas*/
+
+  .body-recipe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+/*Estilos de encabezado de recetas*/  
+
+  header {
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .container-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .logo {
+    height: 160px;
+    width: 230px;
+    object-fit: cover;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  .endSession-btn{
+    background-color: #117964;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+  }
+
+/*Estilo barra de busqueda*/
+
+.search-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.search-btn {
+    background-color: #117964;
+    border: none;
+    border-radius: 3px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.search-card {
+    border-color: 2c3e50;
+    border-radius: 3px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    color: #000000;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+/*Estilo de las tarjetas dinámicas*/
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .card {
+    width: 20%;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .card h2 {
+    margin: 0;
+    font-size: 1.8em;
+  }
+  
+  .card h3 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .card p {
+    margin: 0;
+    font-size: 1.2em;
+    color: #666;
+  }
+
+  .card button {
+    background-color: #1abc9c;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  /*Estilo del formulario de la página recetas*/
+  
+  .form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #ccc;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .form-field {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    align-self:start;
+  }
+  
+  input, textarea {
+    width: 94%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .recipe-form button[type="submit"] {
+    background-color: #1abc9c;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 50%;
+}
+
+.form-field-button {
+  display: flex;
+  justify-content: center;
+}

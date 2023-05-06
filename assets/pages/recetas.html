@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../img/logoRestaurant.png" type="image/x-icon">
+  </head>
+  <body class="body-recipe">
+    <header>
+        <div class="container-header">
+            <img class="logo" src="../img/logoRestaurant.png" alt="Logo">
+            <h1>Recetas</h1>
+        </div>
+        <button class="endSession-btn" id="endSession-btn">Cerrar sesión</button>
+    </header>
+    <div class="search-container" id="search-container">
+        <input type="search" name="search-card" id="search-card" class="search-card">
+        <button class="search-btn" id="search-btn">Buscar</button>
+    </div>
+    <section class="cards" id="cards">
+      <!-- Aquí se cargarán las tarjetas de forma dinámica desde JS -->
+    </section>
+    
+    <section class="form">
+      <h2>Comparte tu receta</h2>
+      <form id="recipe-form" class="recipe-form">
+        <div class="form-field">
+          <label for="recipe-name" class="label">Nombre de la receta:</label>
+          <input type="text" id="recipe-name" name="recipe-name" required>
+        </div>
+        <div class="form-field">
+          <label for="recipe-author" class="label">Autor de la receta:</label>
+          <input type="text" id="recipe-author" name="recipe-author">
+        </div>
+        <div class="form-field">
+          <label for="recipe-ingredients" class="label">Ingredientes:</label>
+          <textarea id="recipe-ingredients" name="recipe-ingredients" required></textarea>
+        </div>
+        <div class="form-field">
+          <label for="recipe-steps" class="label">Pasos a seguir:</label>
+          <textarea id="recipe-steps" name="recipe-steps" required></textarea>
+        </div>
+        <div class="form-field-button">
+            <button type="submit" id="recipe-btn">Compartir</button>
+        </div>
+      </form>
+    </section>
+    <script src="../js/recetas.js"></script>
+    <!--Libreria SweetAlert-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>

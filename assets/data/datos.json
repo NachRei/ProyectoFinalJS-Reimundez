@@ -1,0 +1,68 @@
+[
+    {
+       "nombre":"Arroz con pollo",
+       "autor":"Juan Perez",
+       "ingredientes":"Arroz, Pollo, Ajo, Cebolla, Pimiento",
+       "pasos":"Saltear el pollo con ajo y cebolla, Agregar el arroz y el agua, Cocinar hasta que se ablande"
+    },
+    {
+       "nombre":"Pizza de vegetales",
+       "autor":"Maria Gomez",
+       "ingredientes":"Harina, Levadura, Tomate, Pimiento, Cebolla, Aceitunas",
+       "pasos":"Preparar la masa y dejar reposar, Agregar los ingredientes, Cocinar en el horno"
+    },
+    {
+       "nombre":"Ensalada de frutas",
+       "autor":"Ana Rodriguez",
+       "ingredientes":"Manzanas, Fresas, Uvas, Naranjas",
+       "pasos":"Lavar las frutas y cortar en trozos, Mezclar todo en un recipiente,Servir"
+    },
+    {
+       "nombre":"Hamburguesa con queso",
+       "autor":"Pedro Martinez",
+       "ingredientes":"Carne molida, Pan de hamburguesa, Queso, Lechuga, Tomate",
+       "pasos":"Cocinar la carne en una sartén, Armar la hamburguesa con los ingredientes, Servir"
+    },
+    {
+       "nombre":"Papas al horno",
+       "autor":"Laura Fernandez",
+       "ingredientes":"Papas, Aceite, Sal",
+       "pasos":"Pelar y cortar las papas, Agregar aceite y sal, Cocinar en el horno"
+    },
+    {
+       "nombre":"Sopa de pollo",
+       "autor":"Roberto Suarez",
+       "ingredientes":"Pollo, Cebolla, Ajo, Zanahoria, Fideos",
+       "pasos":"Cocinar el pollo en agua, Agregar las verduras y cocinar hasta que estén blandas, Agregar los fideos"
+    },
+    {
+       "nombre":"Tacos de carne",
+       "autor":"Carlos Hernandez",
+       "ingredientes":"Carne de res, Tortillas, Cebolla, Tomate, Cilantro",
+       "pasos":"Cocinar la carne en una sartén, Calentar las tortillas, Armar los tacos con los ingredientes"
+    },
+    {
+       "nombre":"Pasta con salsa de tomate",
+       "autor":"Lucia Garcia",
+       "ingredientes":"Pasta, Tomate, Ajo, Cebolla, Aceite, Queso rallado",
+       "pasos":"Cocinar la pasta, Preparar la salsa de tomate con ajo y cebolla, Agregar la salsa a la pasta y servir con queso rallado"
+    },
+    {
+       "nombre":"Pizza de pepperoni",
+       "autor":"Juan Pérez",
+       "ingredientes":"Masa de pizza, salsa de tomate, queso mozzarella, pepperoni, orégano",
+       "pasos":"Precalentar el horno a 200 grados Celsius, Estirar la masa de pizza y colocarla en una bandeja, Extender la salsa de tomate sobre la masa, Colocar el queso mozzarella y el pepperoni sobre la salsa de tomate, Espolvorear orégano al gusto, Hornear durante 12-15 minutos o hasta que la pizza esté dorada, Servir caliente."
+    },
+    {
+       "nombre":"Ensalada César",
+       "autor":"María Gómez",
+       "ingredientes":"Lechuga, pollo, pan tostado, queso parmesano, salsa César",
+       "pasos":"Cortar la lechuga en trozos pequeños y lavarla bien, Cocinar el pollo a la parrilla y cortarlo en tiras, Cortar el pan en cubos y tostarlo en una sartén con un poco de aceite de oliva, Rallar el queso parmesano, Mezclar la lechuga, el pollo y el pan tostado en un tazón grande, Agregar la salsa César al gusto y mezclar bien, Espolvorear el queso parmesano por encima, Servir frío."
+    },
+    {
+       "nombre":"Tarta de manzana",
+       "autor":"Pedro Rodríguez",
+       "ingredientes":"Masa quebrada, manzanas, azúcar, canela, nueces",
+       "pasos":"Pelar las manzanas y cortarlas en rodajas finas, Precalentar el horno a 180 grados Celsius, Estirar la masa quebrada y colocarla en un molde para tarta, Colocar las rodajas de manzana sobre la masa, formando una capa uniforme, Espolvorear azúcar y canela sobre las manzanas, Picar las nueces y esparcirlas sobre las manzanas, Hornear durante 30-35 minutos o hasta que la tarta esté dorada, Servir caliente o fría."
+    }
+ ]
