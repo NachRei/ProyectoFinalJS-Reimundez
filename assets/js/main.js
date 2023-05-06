@@ -129,6 +129,3 @@ btnRegister.addEventListener('click', (e) => {
         showLoginForm();
     }
 });
-
-
-// Página de recetas
